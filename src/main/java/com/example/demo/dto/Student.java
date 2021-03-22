@@ -18,22 +18,22 @@ public class Student implements Serializable{
 
 	@Id
 	@Column(name = "id")
-	int id;
+	private int id;
 	
 	@Column(name = "student_name")
-	String studentName;
+	private String studentName;
 	
 	@Column(name = "section")
-	String section;
+	private String section;
 	
 	@Column(name = "subjects")
-	String subjects;
+	private String subjects;
 	
 	@Column(name = "dob")
-	String dateOfBirth;
+	private String dateOfBirth;
 	
 	@Column(name = "gender")
-	String gender;
+	private String gender;
 	
 	
 	public int getId() {
